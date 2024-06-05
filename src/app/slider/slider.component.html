@@ -1,0 +1,8 @@
+<div class="slider">
+    <img [src]="images[0]" [class.active]="currentImage === 0" alt="Imagen 1">
+    <img [src]="images[1]" [class.active]="currentImage === 1" alt="Imagen 2">
+    <img [src]="images[2]" [class.active]="currentImage === 2" alt="Imagen 3">
+    <button class="nav-btn prev" (click)="prevImage()">‹</button>
+    <button class="nav-btn next" (click)="nextImage()">›</button>
+  </div>
+  
